@@ -1,0 +1,24 @@
+/* Koko sivun perusasetukset */
+:root {
+  font-family: Arial, sans-serif;
+  color: #f8f9fa;
+  background-color: #212529;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  background-color: #212529;
+}
